@@ -1,0 +1,11 @@
+GET /test_users/_search
+{
+  "aggs": {
+    "avg-age": {
+      "avg": {
+        "field": "Age"
+      }
+    }
+  }
+  }
+  
